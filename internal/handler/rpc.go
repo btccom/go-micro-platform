@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/go-micro/v2/api/server/cors"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/errors"
+	"github.com/btccom/go-micro/v2/api/server/cors"
+	"github.com/btccom/go-micro/v2/client"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	"github.com/btccom/go-micro/v2/errors"
 	"github.com/micro/micro/v2/internal/helper"
 )
 

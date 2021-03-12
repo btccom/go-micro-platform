@@ -2,10 +2,10 @@ package store
 
 import (
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/store"
-	pb "github.com/micro/go-micro/v2/store/service/proto"
+	"github.com/btccom/go-micro/v2"
+	log "github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/store"
+	pb "github.com/btccom/go-micro/v2/store/service/proto"
 	mcli "github.com/micro/micro/v2/client/cli"
 	"github.com/micro/micro/v2/internal/helper"
 	"github.com/micro/micro/v2/service/store/handler"

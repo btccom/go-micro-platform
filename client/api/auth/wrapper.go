@@ -7,11 +7,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/micro/go-micro/v2/api/resolver"
-	"github.com/micro/go-micro/v2/api/server"
-	"github.com/micro/go-micro/v2/auth"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/util/ctx"
+	"github.com/btccom/go-micro/v2/api/resolver"
+	"github.com/btccom/go-micro/v2/api/server"
+	"github.com/btccom/go-micro/v2/auth"
+	"github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/util/ctx"
 	inauth "github.com/micro/micro/v2/internal/auth"
 	"github.com/micro/micro/v2/internal/namespace"
 )

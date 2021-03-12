@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/config/cmd"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/cache"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	log "github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/registry"
+	"github.com/btccom/go-micro/v2/registry/cache"
 )
 
 // Stats is the Debug.Stats handler

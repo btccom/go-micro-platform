@@ -8,9 +8,9 @@ import (
 	"sort"
 
 	ccli "github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/config/cmd"
-	gostore "github.com/micro/go-micro/v2/store"
+	"github.com/btccom/go-micro/v2"
+	"github.com/btccom/go-micro/v2/config/cmd"
+	gostore "github.com/btccom/go-micro/v2/store"
 	"github.com/micro/micro/v2/plugin"
 	"github.com/micro/micro/v2/plugin/build"
 	"github.com/micro/micro/v2/server"

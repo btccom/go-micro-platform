@@ -9,21 +9,21 @@ import (
 	"time"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/network"
-	"github.com/micro/go-micro/v2/network/resolver"
-	"github.com/micro/go-micro/v2/network/resolver/dns"
-	"github.com/micro/go-micro/v2/network/resolver/http"
-	"github.com/micro/go-micro/v2/network/resolver/registry"
-	"github.com/micro/go-micro/v2/proxy"
-	"github.com/micro/go-micro/v2/proxy/mucp"
-	"github.com/micro/go-micro/v2/router"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/transport/quic"
-	"github.com/micro/go-micro/v2/tunnel"
-	"github.com/micro/go-micro/v2/util/mux"
+	"github.com/btccom/go-micro/v2"
+	log "github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/network"
+	"github.com/btccom/go-micro/v2/network/resolver"
+	"github.com/btccom/go-micro/v2/network/resolver/dns"
+	"github.com/btccom/go-micro/v2/network/resolver/http"
+	"github.com/btccom/go-micro/v2/network/resolver/registry"
+	"github.com/btccom/go-micro/v2/proxy"
+	"github.com/btccom/go-micro/v2/proxy/mucp"
+	"github.com/btccom/go-micro/v2/router"
+	"github.com/btccom/go-micro/v2/server"
+	"github.com/btccom/go-micro/v2/transport"
+	"github.com/btccom/go-micro/v2/transport/grpc"
+	"github.com/btccom/go-micro/v2/tunnel"
+	"github.com/btccom/go-micro/v2/util/mux"
 	mcli "github.com/micro/micro/v2/client/cli"
 	"github.com/micro/micro/v2/internal/helper"
 	"github.com/micro/micro/v2/service/network/api"
@@ -125,7 +125,7 @@ func Run(ctx *cli.Context, srvOpts ...micro.Option) {
 		config.InsecureSkipVerify = true
 
 		tunOpts = append(tunOpts, tunnel.Transport(
-			quic.NewTransport(transport.TLSConfig(config)),
+			grpc.NewTransport(transport.TLSConfig(config)),
 		))
 	}
 

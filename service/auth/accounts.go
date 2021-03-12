@@ -9,8 +9,8 @@ import (
 	"text/tabwriter"
 
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/auth"
-	pb "github.com/micro/go-micro/v2/auth/service/proto"
+	"github.com/btccom/go-micro/v2/auth"
+	pb "github.com/btccom/go-micro/v2/auth/service/proto"
 	"github.com/micro/micro/v2/internal/client"
 )
 

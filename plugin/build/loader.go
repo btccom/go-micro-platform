@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/micro/go-micro/v2/plugin"
+	"github.com/btccom/go-micro/v2/plugin"
 	"golang.org/x/tools/go/packages"
 )
 

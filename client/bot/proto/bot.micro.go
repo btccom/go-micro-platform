@@ -21,8 +21,8 @@ import math "math"
 
 import (
 	context "context"
-	client "github.com/micro/go-micro/v2/client"
-	server "github.com/micro/go-micro/v2/server"
+	client "github.com/btccom/go-micro/v2/client"
+	server "github.com/btccom/go-micro/v2/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

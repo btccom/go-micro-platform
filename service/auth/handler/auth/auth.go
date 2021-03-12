@@ -9,14 +9,14 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/micro/go-micro/v2/auth"
-	pb "github.com/micro/go-micro/v2/auth/service/proto"
-	"github.com/micro/go-micro/v2/auth/token"
-	"github.com/micro/go-micro/v2/auth/token/basic"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/store"
-	memStore "github.com/micro/go-micro/v2/store/memory"
+	"github.com/btccom/go-micro/v2/auth"
+	pb "github.com/btccom/go-micro/v2/auth/service/proto"
+	"github.com/btccom/go-micro/v2/auth/token"
+	"github.com/btccom/go-micro/v2/auth/token/basic"
+	"github.com/btccom/go-micro/v2/errors"
+	"github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/store"
+	memStore "github.com/btccom/go-micro/v2/store/memory"
 	"github.com/micro/micro/v2/internal/namespace"
 	"golang.org/x/crypto/bcrypt"
 )

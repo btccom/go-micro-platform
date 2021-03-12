@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/runtime"
+	log "github.com/btccom/go-micro/v2/logger"
+	"github.com/btccom/go-micro/v2/runtime"
 )
 
 var (
