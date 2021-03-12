@@ -14,7 +14,7 @@ import (
 	pb "github.com/btccom/go-micro/v2/config/source/service/proto"
 	"github.com/btccom/go-micro/v2/errors"
 	"github.com/btccom/go-micro/v2/store"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 var (

@@ -16,13 +16,13 @@ import (
 	"github.com/btccom/go-micro/v2/config/cmd"
 	"github.com/btccom/go-micro/v2/errors"
 	log "github.com/btccom/go-micro/v2/logger"
-	cliutil "github.com/micro/micro/v2/client/cli/util"
-	"github.com/micro/micro/v2/internal/client"
-	"github.com/micro/micro/v2/internal/config"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/auth/api"
-	authHandler "github.com/micro/micro/v2/service/auth/handler/auth"
-	rulesHandler "github.com/micro/micro/v2/service/auth/handler/rules"
+	cliutil "github.com/btccom/go-micro-platform/v2/client/cli/util"
+	"github.com/btccom/go-micro-platform/v2/internal/client"
+	"github.com/btccom/go-micro-platform/v2/internal/config"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/service/auth/api"
+	authHandler "github.com/btccom/go-micro-platform/v2/service/auth/handler/auth"
+	rulesHandler "github.com/btccom/go-micro-platform/v2/service/auth/handler/rules"
 )
 
 var (

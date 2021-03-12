@@ -6,9 +6,9 @@ import (
 	"github.com/btccom/go-micro/v2"
 	log "github.com/btccom/go-micro/v2/logger"
 
-	"github.com/micro/micro/v2/service/network/dns/handler"
-	dns "github.com/micro/micro/v2/service/network/dns/proto/dns"
-	"github.com/micro/micro/v2/service/network/dns/provider/cloudflare"
+	"github.com/btccom/go-micro-platform/v2/service/network/dns/handler"
+	dns "github.com/btccom/go-micro-platform/v2/service/network/dns/proto/dns"
+	"github.com/btccom/go-micro-platform/v2/service/network/dns/provider/cloudflare"
 )
 
 // Run is the entrypoint for network/dns

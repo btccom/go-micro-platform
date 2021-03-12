@@ -12,8 +12,8 @@ import (
 	"github.com/btccom/go-micro/v2/auth"
 	"github.com/btccom/go-micro/v2/logger"
 	"github.com/btccom/go-micro/v2/util/ctx"
-	inauth "github.com/micro/micro/v2/internal/auth"
-	"github.com/micro/micro/v2/internal/namespace"
+	inauth "github.com/btccom/go-micro-platform/v2/internal/auth"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 // Wrapper wraps a handler and authenticates requests

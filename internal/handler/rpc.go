@@ -11,7 +11,7 @@ import (
 	"github.com/btccom/go-micro/v2/client"
 	"github.com/btccom/go-micro/v2/config/cmd"
 	"github.com/btccom/go-micro/v2/errors"
-	"github.com/micro/micro/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
 )
 
 type rpcRequest struct {

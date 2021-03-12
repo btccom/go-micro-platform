@@ -5,7 +5,7 @@ import (
 
 	"github.com/btccom/go-micro/v2/runtime"
 	"github.com/btccom/go-micro/v2/store/memory"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 func TestServices(t *testing.T) {

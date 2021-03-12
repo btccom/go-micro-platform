@@ -31,7 +31,7 @@ import (
 	"github.com/btccom/go-micro/v2/sync/memory"
 	"github.com/btccom/go-micro/v2/util/mux"
 	"github.com/btccom/go-micro/v2/util/wrapper"
-	"github.com/micro/micro/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
 )
 
 var (

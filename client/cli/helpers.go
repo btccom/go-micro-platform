@@ -15,8 +15,8 @@ import (
 	cbytes "github.com/btccom/go-micro/v2/codec/bytes"
 	"github.com/btccom/go-micro/v2/config/cmd"
 	"github.com/btccom/go-micro/v2/util/file"
-	cliutil "github.com/micro/micro/v2/client/cli/util"
-	clic "github.com/micro/micro/v2/internal/command/cli"
+	cliutil "github.com/btccom/go-micro-platform/v2/client/cli/util"
+	clic "github.com/btccom/go-micro-platform/v2/internal/command/cli"
 )
 
 type exec func(*cli.Context, []string) ([]byte, error)

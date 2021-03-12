@@ -12,9 +12,9 @@ import (
 	"github.com/btccom/go-micro/v2/config/cmd"
 	proto "github.com/btccom/go-micro/v2/config/source/service/proto"
 	log "github.com/btccom/go-micro/v2/logger"
-	"github.com/micro/micro/v2/internal/client"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/config/handler"
+	"github.com/btccom/go-micro-platform/v2/internal/client"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/service/config/handler"
 )
 
 var (

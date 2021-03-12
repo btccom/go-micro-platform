@@ -6,7 +6,7 @@ import (
 	"github.com/btccom/go-micro/v2"
 	"github.com/btccom/go-micro/v2/auth"
 	"github.com/btccom/go-micro/v2/errors"
-	pb "github.com/micro/micro/v2/service/auth/api/proto"
+	pb "github.com/btccom/go-micro-platform/v2/service/auth/api/proto"
 )
 
 // Handler is an impementation of the auth api

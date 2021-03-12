@@ -12,7 +12,7 @@ import (
 
 	"github.com/btccom/go-micro/v2/runtime"
 	pb "github.com/btccom/go-micro/v2/runtime/service/proto"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 func toProto(s *runtime.Service) *pb.Service {

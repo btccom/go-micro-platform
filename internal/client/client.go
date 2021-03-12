@@ -8,9 +8,9 @@ import (
 	"github.com/btccom/go-micro/v2/client"
 	"github.com/btccom/go-micro/v2/client/grpc"
 	"github.com/btccom/go-micro/v2/metadata"
-	"github.com/micro/micro/v2/client/cli/util"
-	cliutil "github.com/micro/micro/v2/client/cli/util"
-	"github.com/micro/micro/v2/internal/config"
+	"github.com/btccom/go-micro-platform/v2/client/cli/util"
+	cliutil "github.com/btccom/go-micro-platform/v2/client/cli/util"
+	"github.com/btccom/go-micro-platform/v2/internal/config"
 )
 
 // New returns a wrapped grpc client which will inject the

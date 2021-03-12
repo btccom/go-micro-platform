@@ -9,7 +9,7 @@ import (
 	"github.com/btccom/go-micro/v2/logger"
 	"github.com/btccom/go-micro/v2/runtime"
 	"github.com/btccom/go-micro/v2/store"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 var (

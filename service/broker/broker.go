@@ -8,7 +8,7 @@ import (
 	"github.com/btccom/go-micro/v2"
 	pb "github.com/btccom/go-micro/v2/broker/service/proto"
 	log "github.com/btccom/go-micro/v2/logger"
-	"github.com/micro/micro/v2/service/broker/handler"
+	"github.com/btccom/go-micro-platform/v2/service/broker/handler"
 )
 
 var (

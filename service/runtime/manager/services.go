@@ -7,7 +7,7 @@ import (
 
 	"github.com/btccom/go-micro/v2/runtime"
 	"github.com/btccom/go-micro/v2/store"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 // service is the object persisted in the store

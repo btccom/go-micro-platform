@@ -11,8 +11,8 @@ import (
 	log "github.com/btccom/go-micro/v2/logger"
 	gorun "github.com/btccom/go-micro/v2/runtime"
 	handler "github.com/btccom/go-micro/v2/util/file"
-	"github.com/micro/micro/v2/internal/platform"
-	"github.com/micro/micro/v2/internal/update"
+	"github.com/btccom/go-micro-platform/v2/internal/platform"
+	"github.com/btccom/go-micro-platform/v2/internal/update"
 )
 
 var (

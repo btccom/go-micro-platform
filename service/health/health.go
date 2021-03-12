@@ -10,8 +10,8 @@ import (
 	"github.com/btccom/go-micro/v2/client"
 	proto "github.com/btccom/go-micro/v2/debug/service/proto"
 	log "github.com/btccom/go-micro/v2/logger"
-	mcli "github.com/micro/micro/v2/client/cli"
-	qcli "github.com/micro/micro/v2/internal/command/cli"
+	mcli "github.com/btccom/go-micro-platform/v2/client/cli"
+	qcli "github.com/btccom/go-micro-platform/v2/internal/command/cli"
 	"golang.org/x/net/context"
 )
 

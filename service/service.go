@@ -14,8 +14,8 @@ import (
 	"github.com/btccom/go-micro/v2/proxy/mucp"
 	"github.com/btccom/go-micro/v2/runtime"
 	"github.com/btccom/go-micro/v2/server"
-	"github.com/micro/micro/v2/service/handler/exec"
-	"github.com/micro/micro/v2/service/handler/file"
+	"github.com/btccom/go-micro-platform/v2/service/handler/exec"
+	"github.com/btccom/go-micro-platform/v2/service/handler/file"
 )
 
 func Run(ctx *cli.Context, opts ...micro.Option) {

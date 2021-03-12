@@ -11,9 +11,9 @@ import (
 	"github.com/btccom/go-micro/v2/registry"
 	"github.com/btccom/go-micro/v2/registry/service"
 	pb "github.com/btccom/go-micro/v2/registry/service/proto"
-	rcli "github.com/micro/micro/v2/client/cli"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/registry/handler"
+	rcli "github.com/btccom/go-micro-platform/v2/client/cli"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/service/registry/handler"
 )
 
 var (

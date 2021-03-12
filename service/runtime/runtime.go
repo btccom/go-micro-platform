@@ -10,9 +10,9 @@ import (
 	log "github.com/btccom/go-micro/v2/logger"
 	"github.com/btccom/go-micro/v2/runtime"
 	pb "github.com/btccom/go-micro/v2/runtime/service/proto"
-	"github.com/micro/micro/v2/service/runtime/handler"
-	"github.com/micro/micro/v2/service/runtime/manager"
-	"github.com/micro/micro/v2/service/runtime/profile"
+	"github.com/btccom/go-micro-platform/v2/service/runtime/handler"
+	"github.com/btccom/go-micro-platform/v2/service/runtime/manager"
+	"github.com/btccom/go-micro-platform/v2/service/runtime/profile"
 )
 
 var (

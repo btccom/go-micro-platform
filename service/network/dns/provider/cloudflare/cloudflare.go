@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 
 	log "github.com/btccom/go-micro/v2/logger"
-	dns "github.com/micro/micro/v2/service/network/dns/proto/dns"
-	"github.com/micro/micro/v2/service/network/dns/provider"
+	dns "github.com/btccom/go-micro-platform/v2/service/network/dns/proto/dns"
+	"github.com/btccom/go-micro-platform/v2/service/network/dns/provider"
 )
 
 type cfProvider struct {

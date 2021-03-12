@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	ccli "github.com/micro/cli/v2"
-	"github.com/micro/micro/v2/internal/config"
-	"github.com/micro/micro/v2/internal/platform"
-	"github.com/micro/micro/v2/service/runtime/profile"
+	"github.com/btccom/go-micro-platform/v2/internal/config"
+	"github.com/btccom/go-micro-platform/v2/internal/platform"
+	"github.com/btccom/go-micro-platform/v2/service/runtime/profile"
 )
 
 const (

@@ -8,12 +8,12 @@ import (
 	"github.com/btccom/go-micro/v2/debug/log/kubernetes"
 	dservice "github.com/btccom/go-micro/v2/debug/service"
 	ulog "github.com/btccom/go-micro/v2/logger"
-	logHandler "github.com/micro/micro/v2/service/debug/log/handler"
-	pblog "github.com/micro/micro/v2/service/debug/log/proto"
-	statshandler "github.com/micro/micro/v2/service/debug/stats/handler"
-	pbstats "github.com/micro/micro/v2/service/debug/stats/proto"
-	tracehandler "github.com/micro/micro/v2/service/debug/trace/handler"
-	pbtrace "github.com/micro/micro/v2/service/debug/trace/proto"
+	logHandler "github.com/btccom/go-micro-platform/v2/service/debug/log/handler"
+	pblog "github.com/btccom/go-micro-platform/v2/service/debug/log/proto"
+	statshandler "github.com/btccom/go-micro-platform/v2/service/debug/stats/handler"
+	pbstats "github.com/btccom/go-micro-platform/v2/service/debug/stats/proto"
+	tracehandler "github.com/btccom/go-micro-platform/v2/service/debug/trace/handler"
+	pbtrace "github.com/btccom/go-micro-platform/v2/service/debug/trace/proto"
 )
 
 var (

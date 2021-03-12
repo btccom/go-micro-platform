@@ -15,8 +15,8 @@ import (
 
 	// include usage
 
-	"github.com/micro/micro/v2/internal/update"
-	_ "github.com/micro/micro/v2/internal/usage"
+	"github.com/btccom/go-micro-platform/v2/internal/update"
+	_ "github.com/btccom/go-micro-platform/v2/internal/usage"
 )
 
 var (

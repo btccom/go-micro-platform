@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/btccom/go-micro/v2/client"
-	stats "github.com/micro/micro/v2/service/debug/stats/proto"
+	stats "github.com/btccom/go-micro-platform/v2/service/debug/stats/proto"
 	"github.com/netdata/go-orchestrator/module"
 )
 

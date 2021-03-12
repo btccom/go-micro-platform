@@ -9,7 +9,7 @@ import (
 	fileStore "github.com/btccom/go-micro/v2/store/file"
 	memStore "github.com/btccom/go-micro/v2/store/memory"
 	// we only use CF internally for certs
-	cfStore "github.com/micro/micro/v2/internal/plugins/store/cloudflare"
+	cfStore "github.com/btccom/go-micro-platform/v2/internal/plugins/store/cloudflare"
 )
 
 func init() {

@@ -11,7 +11,7 @@ import (
 	"github.com/btccom/go-micro/v2/metadata"
 	"github.com/btccom/go-micro/v2/store"
 	pb "github.com/btccom/go-micro/v2/store/service/proto"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 )
 
 type Store struct {

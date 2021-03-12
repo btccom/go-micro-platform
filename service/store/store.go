@@ -6,9 +6,9 @@ import (
 	log "github.com/btccom/go-micro/v2/logger"
 	"github.com/btccom/go-micro/v2/store"
 	pb "github.com/btccom/go-micro/v2/store/service/proto"
-	mcli "github.com/micro/micro/v2/client/cli"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/store/handler"
+	mcli "github.com/btccom/go-micro-platform/v2/client/cli"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/service/store/handler"
 	"github.com/pkg/errors"
 )
 

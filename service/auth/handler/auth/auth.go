@@ -17,7 +17,7 @@ import (
 	"github.com/btccom/go-micro/v2/logger"
 	"github.com/btccom/go-micro/v2/store"
 	memStore "github.com/btccom/go-micro/v2/store/memory"
-	"github.com/micro/micro/v2/internal/namespace"
+	"github.com/btccom/go-micro-platform/v2/internal/namespace"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -21,9 +21,9 @@ import (
 	"github.com/btccom/go-micro/v2/runtime/local/git"
 	srvRuntime "github.com/btccom/go-micro/v2/runtime/service"
 	"github.com/btccom/go-micro/v2/util/file"
-	cliutil "github.com/micro/micro/v2/client/cli/util"
-	"github.com/micro/micro/v2/internal/client"
-	"github.com/micro/micro/v2/service/runtime/handler"
+	cliutil "github.com/btccom/go-micro-platform/v2/client/cli/util"
+	"github.com/btccom/go-micro-platform/v2/internal/client"
+	"github.com/btccom/go-micro-platform/v2/service/runtime/handler"
 )
 
 const (

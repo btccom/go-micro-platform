@@ -9,7 +9,7 @@ import (
 	"github.com/micro/cli/v2"
 	log "github.com/btccom/go-micro/v2/logger"
 	goplugin "github.com/btccom/go-micro/v2/plugin"
-	"github.com/micro/micro/v2/plugin"
+	"github.com/btccom/go-micro-platform/v2/plugin"
 )
 
 func build(ctx *cli.Context) error {

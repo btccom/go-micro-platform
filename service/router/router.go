@@ -11,7 +11,7 @@ import (
 	log "github.com/btccom/go-micro/v2/logger"
 	"github.com/btccom/go-micro/v2/router"
 	pb "github.com/btccom/go-micro/v2/router/service/proto"
-	"github.com/micro/micro/v2/service/router/handler"
+	"github.com/btccom/go-micro-platform/v2/service/router/handler"
 )
 
 var (

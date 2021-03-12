@@ -5,7 +5,7 @@ import (
 
 	"github.com/micro/cli/v2"
 	"github.com/btccom/go-micro/v2/logger"
-	"github.com/micro/micro/v2/service/store/snapshot"
+	"github.com/btccom/go-micro-platform/v2/service/store/snapshot"
 	"github.com/pkg/errors"
 )
 

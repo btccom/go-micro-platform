@@ -24,11 +24,11 @@ import (
 	"github.com/btccom/go-micro/v2/transport/grpc"
 	"github.com/btccom/go-micro/v2/tunnel"
 	"github.com/btccom/go-micro/v2/util/mux"
-	mcli "github.com/micro/micro/v2/client/cli"
-	"github.com/micro/micro/v2/internal/helper"
-	"github.com/micro/micro/v2/service/network/api"
-	netdns "github.com/micro/micro/v2/service/network/dns"
-	"github.com/micro/micro/v2/service/network/handler"
+	mcli "github.com/btccom/go-micro-platform/v2/client/cli"
+	"github.com/btccom/go-micro-platform/v2/internal/helper"
+	"github.com/btccom/go-micro-platform/v2/service/network/api"
+	netdns "github.com/btccom/go-micro-platform/v2/service/network/dns"
+	"github.com/btccom/go-micro-platform/v2/service/network/handler"
 )
 
 var (

@@ -3,7 +3,7 @@ package proxy
 import (
 	"fmt"
 
-	"github.com/micro/micro/v2/plugin"
+	"github.com/btccom/go-micro-platform/v2/plugin"
 )
 
 var (
