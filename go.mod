@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/aws/aws-sdk-go v1.23.0
 	github.com/boltdb/bolt v1.3.1
-	github.com/btccom/go-micro/v2 v2.9.3 // indirect
+	github.com/btccom/go-micro/v2 v2.9.3
 	github.com/chzyer/logex v1.1.10 // indirect
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
 	github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1 // indirect
@@ -13,11 +13,11 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/go-acme/lego/v3 v3.4.0
-	github.com/golang/protobuf v1.4.2
+	github.com/golang/protobuf v1.5.0
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/handlers v1.4.2
 	github.com/gorilla/mux v1.7.3
-	github.com/micro/cli/v2 v2.1.2 // indirect
+	github.com/micro/cli/v2 v2.1.2
 	github.com/miekg/dns v1.1.27
 	github.com/netdata/go-orchestrator v0.0.0-20190905093727-c793edba0e8f
 	github.com/olekukonko/tablewriter v0.0.4
@@ -32,6 +32,7 @@ require (
 	golang.org/x/tools v0.0.0-20191216173652-a0e659d51361
 	google.golang.org/genproto v0.0.0-20191216164720-4f79533eabd1
 	google.golang.org/grpc v1.26.0
+	google.golang.org/protobuf v1.28.1
 )
 
 replace github.com/micro/cli/v2 => github.com/btccom/go-micro-cli/v2 v2.1.2

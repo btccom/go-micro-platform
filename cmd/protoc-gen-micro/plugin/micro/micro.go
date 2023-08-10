@@ -275,10 +275,8 @@ func (g *micro) generateEndpoint(servName string, method *pb.MethodDescriptorPro
 		return
 	}
 	// http rules
-	r, err := proto.GetExtension(method.Options, options.E_Http)
-	if err != nil {
-		return
-	}
+	r := proto.GetExtension(method.Options, options.E_Http)
+
 	rule := r.(*options.HttpRule)
 	var meth string
 	var path string
